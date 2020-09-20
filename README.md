@@ -7,6 +7,7 @@ Then Google Tests run to check the result.
 to compile, link:
 
 $ gcc roots.c -c
+
 $ g++ -std=c++11 -Wall testGo.cpp roots.o -lgtest -lgtest_main -lpthread -o ./gt
 
 to run:
